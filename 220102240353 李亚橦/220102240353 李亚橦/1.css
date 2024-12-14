@@ -1,0 +1,123 @@
+/* 1.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family:微雅软黑;
+    color: white;
+    font-size: larger;
+}
+.nav-link {
+    color: white;
+    text-decoration: none
+    
+}
+
+.navbar-brand{
+    color: white;
+    text-decoration: none
+
+}
+.navbar {
+    padding: 5rem; /* 导航栏内边距 */
+    line-height: 2;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+section {
+        padding: 2rem 0;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.photo-container {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd; /* 边框 */
+    border-radius: 10px; /* 边框圆角 */
+
+}
+
+.profile-info h1, .profile-info h2 {
+    margin: 10px 0; /* 标题的上下边距 */
+}
+
+.experience h3 {
+    margin-top: 20px; /* 子标题的上边距 */
+}
+
+ul {
+    list-style-type: disc; /* 列表符号 */
+    margin-left: 20px; /* 列表的左边距 */
+    
+}
+
+li {
+    margin-bottom: 5px; /* 列表项的下边距 */
+}   
+p {
+   font-weight: bolder;
+    font-size: larger;
+}
+h2 {
+    color: pink; 
+    font-weight: bolder;
+}
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .photo-container {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.btn-primary {
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #1b55e2;
+    padding: 15px 30px;
+    font-size: 25px;
+
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .navbar .container-fluid {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+body {
+    margin: 0; /* 移除body的默认边距 */
+    padding: 0; /* 移除body的默认内边距 */
+    background-image: url('IMG_20240217_001717.jpg'); /* 设置背景图片 */
+    background-size: cover; /* 背景图片覆盖整个元素 */
+    background-position: center; /* 背景图片居中显示 */
+    background-repeat: no-repeat; /* 背景图片不重复 */
+    background-attachment: fixed; /* 背景图片固定，不随滚动条滚动 */
+    font-family: 'Arial', sans-serif; /* 设置默认字体 */
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.7); /* 设置内容区域的背景颜色，半透明 */
+    padding: 20px; /* 内容区域的内边距 */
+    max-width: 800px; /* 内容区域的最大宽度 */
+    margin: auto; /* 内容区域水平居中 */
+}
+
+
